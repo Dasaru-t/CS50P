@@ -23,10 +23,7 @@ def is_even(n):
     bool: True if the number is even, False otherwise.
     """
     # Check if the number is divisible by 2 with no remainder
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    return n % 2 == 0
 
 # Execute the main function
 main()
